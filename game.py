@@ -23,7 +23,7 @@ def main() -> None:
         elif guess > secret:
             print("Too high.")
         else:
-            print(f"You got it in {attempts} attempt(s)! The number was {secret}.")
+            print(f"You got it in {attempts} attempt(s)!")
             break
 
 
